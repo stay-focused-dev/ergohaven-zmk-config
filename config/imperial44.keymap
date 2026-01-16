@@ -10,9 +10,9 @@
 
         base {
             bindings = <
-&kp ESC    &kp Q  &kp W  &kp E  &kp R          &kp T                          &kp Y  &kp U     &kp I   &kp O   &kp P   &kp TAB
-&kp LCTRL  &kp A  &kp S  &kp D  &kp F          &kp G                          &kp H  &kp J     &kp K   &kp L   &trans  &kp LGUI
-&kp LSHFT  &kp Z  &kp X  &kp C  &kp V          &kp B  &trans       &trans     &kp N  &kp M     &trans  &trans  &trans  &kp RSHFT
+&kp ESC    &kp Q  &kp W  &kp E  &kp R          &kp T                          &kp Y  &kp U     &kp I      &kp O    &kp P          &kp TAB
+&kp LCTRL  &kp A  &kp S  &kp D  &kp F          &kp G                          &kp H  &kp J     &kp K      &kp L    &kp SEMICOLON  &kp LGUI
+&kp LSHFT  &kp Z  &kp X  &kp C  &kp V          &kp B  &trans       &trans     &kp N  &kp M     &kp COMMA  &kp DOT  &kp FSLH       &kp RSHFT
                                 &kp BACKSPACE  &mo 1  &kp SPACE    &kp ENTER  &mo 2  &kp LALT
             >;
 
@@ -35,10 +35,10 @@
 
         sym {
             bindings = <
-&trans  &kp CARET      &kp LEFT_BRACE  &kp EQUAL            &kp RIGHT_BRACE  &kp QUESTION                       &kp HASH     &kp DQT           &kp MINUS  &kp SINGLE_QUOTE   &kp KP_NUMBER_4  &trans
-&trans  &kp KP_DIVIDE  &kp LPAR        &kp LS(KP_NUMBER_4)  &kp RPAR         &kp PLUS                           &kp PRCNT    &kp LEFT_BRACKET  &kp UNDER  &kp RIGHT_BRACKET  &kp EXCL         &trans
-&trans  &kp BSLH       &kp STAR        &kp PIPE             &kp KP_NUMBER_1  &kp KP_NUMBER_2  &trans    &trans  &kp AT_SIGN  &kp DOLLAR        &kp TILDE  &kp AMPS           &kp GRAVE        &trans
-                                                            &trans           &mo 3            &trans    &trans  &trans       &trans
+&trans  &kp CARET      &kp LS(KP_NUMBER_8)  &kp EQUAL            &kp LS(KP_NUMBER_9)  &kp QUESTION                       &kp HASH     &kp LS(KP_NUMBER_5)  &kp MINUS  &kp KP_NUMBER_5  &kp KP_NUMBER_4  &trans
+&trans  &kp KP_DIVIDE  &kp LPAR             &kp LS(KP_NUMBER_4)  &kp RPAR             &kp PLUS                           &kp PRCNT    &kp KP_NUMBER_8      &kp UNDER  &kp KP_NUMBER_9  &kp EXCL         &trans
+&trans  &kp BSLH       &kp STAR             &kp PIPE             &kp KP_NUMBER_1      &kp KP_NUMBER_2  &trans    &trans  &kp AT_SIGN  &kp DOLLAR           &kp TILDE  &kp AMPS         &kp GRAVE        &trans
+                                                                 &trans               &mo 3            &trans    &trans  &trans       &trans
             >;
 
             display-name = "Symbols";
