@@ -35,10 +35,10 @@
 
         sym {
             bindings = <
-&trans  &kp CARET      &kp LS(KP_NUMBER_8)  &kp EQUAL            &kp LS(KP_NUMBER_9)  &kp QUESTION                       &kp HASH     &kp LS(KP_NUMBER_5)  &kp KP_NUMBER_7  &kp KP_NUMBER_5  &kp KP_NUMBER_4  &trans
-&trans  &kp KP_DIVIDE  &kp LPAR             &kp LS(KP_NUMBER_4)  &kp RPAR             &kp PLUS                           &kp PRCNT    &kp KP_NUMBER_8      &kp UNDER        &kp KP_NUMBER_9  &kp EXCL         &trans
-&trans  &kp BSLH       &kp STAR             &kp PIPE             &kp KP_NUMBER_1      &kp KP_NUMBER_2  &trans    &trans  &kp AT_SIGN  &kp DOLLAR           &kp TILDE        &kp AMPS         &kp GRAVE        &trans
-                                                                 &trans               &mo 3            &trans    &trans  &trans       &trans
+&trans  &kp CARET      &kp LS(KP_NUMBER_8)  &kp EQUAL            &kp LS(KP_NUMBER_9)  &kp QUESTION                          &kp HASH     &kp LS(KP_NUMBER_5)  &kp KP_NUMBER_7  &kp KP_NUMBER_5  &kp KP_NUMBER_4  &trans
+&trans  &kp KP_DIVIDE  &kp LPAR             &kp LS(KP_NUMBER_4)  &kp RPAR             &kp PLUS                              &kp PRCNT    &kp KP_NUMBER_8      &kp UNDER        &kp KP_NUMBER_9  &kp EXCL         &trans
+&trans  &kp BSLH       &kp STAR             &kp PIPE             &kp KP_NUMBER_1      &kp KP_NUMBER_2  &trans    &kp GRAVE  &kp AT_SIGN  &kp DOLLAR           &kp LS(KP_DOT)   &kp KP_DOT       &kp AMPERSAND    &trans
+                                                                 &trans               &mo 3            &trans    &trans     &trans       &trans
             >;
 
             display-name = "Symbols";
